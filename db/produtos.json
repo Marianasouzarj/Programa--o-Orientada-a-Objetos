@@ -10,5 +10,29 @@
         "nome": "Notebook",
         "quantidade": 50,
         "valor": 4000
+    },
+    {
+        "codigo": "003",
+        "nome": "novo produto",
+        "quantidade": 150,
+        "valor": 4000
+    },
+    {
+        "codigo": "003",
+        "nome": "Novo produto",
+        "quantidade": 150,
+        "valor": 4000
+    },
+    {
+        "codigo": "003",
+        "nome": "Novo produto",
+        "quantidade": 150,
+        "valor": 4000
+    },
+    {
+        "codigo": "045",
+        "nome": "produto 2",
+        "quantidade": 150,
+        "valor": 4000
     }
 ]

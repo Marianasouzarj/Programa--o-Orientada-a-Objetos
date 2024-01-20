@@ -4,5 +4,14 @@
     },
     {
         "nome": "Roupas"
+    },
+    {
+        "nome": "Cal\u00e7ados"
+    },
+    {
+        "codigo": "003",
+        "nome": "drone",
+        "quantidade": 150,
+        "valor": 4000
     }
 ]
