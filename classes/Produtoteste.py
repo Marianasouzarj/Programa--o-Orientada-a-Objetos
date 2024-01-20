@@ -3,6 +3,8 @@
 from classes.AbstractCrud import AbstractCrud          #*********Vou importar essa classe****
 
 class Produto(AbstractCrud):                    # **** herdo a classe /// passo a ter todos os métodos
+
+    arquivo = 'db/produtos.json' 
     
     def __init__(self, codigo, nome , quantidade = 0, valor = 0):
         self.codigo = codigo

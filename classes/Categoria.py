@@ -3,7 +3,9 @@
 
 from classes.AbstractCrud import AbstractCrud          #*********Vou importar essa classe****
 
-class Categoria:
+class Categoria(AbstractCrud):
+
+    arquivo = 'db/categorias.json'
    
     def __init__(self, nome): 
         self.nome = nome

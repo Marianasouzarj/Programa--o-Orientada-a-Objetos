@@ -1,17 +1,11 @@
 [
     {
-        "nome": "Eletr\u00f4nico"
+        "nome": "roupa"
     },
     {
-        "nome": "Roupas"
+        "nome": "cal\u00e7ado"
     },
     {
-        "nome": "Cal\u00e7ados"
-    },
-    {
-        "codigo": "003",
-        "nome": "drone",
-        "quantidade": 150,
-        "valor": 4000
+        "nome": "eletr\u00f4nico"
     }
 ]
