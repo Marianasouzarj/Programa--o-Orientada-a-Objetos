@@ -1,62 +1,26 @@
 [
     {
+        "codigo": "001",
+        "nome": "notebook",
+        "quantidade": 30,
+        "valor": 6500
+    },
+    {
+        "codigo": "002",
+        "nome": "celular",
+        "quantidade": "20",
+        "valor": "2500"
+    },
+    {
         "codigo": "003",
-        "nome": "novo produto",
-        "quantidade": 150,
-        "valor": 4000
-    },
-    {
-        "codigo": "003",
-        "nome": "Novo produto",
-        "quantidade": 150,
-        "valor": 4000
-    },
-    {
-        "codigo": "003",
-        "nome": "Novo produto",
-        "quantidade": 300,
-        "valor": 150
-    },
-    {
-        "codigo": "045",
-        "nome": "produto 2",
-        "quantidade": 150,
-        "valor": 4000
-    },
-    {
-        "codigo": "001",
-        "nome": "Mouse",
-        "quantidade": 2000,
-        "valor": 35
-    },
-    {
-        "codigo": "001",
-        "nome": "Mouse",
-        "quantidade": 2000,
-        "valor": 35
-    },
-    {
-        "codigo": "001",
-        "nome": "Mouse",
-        "quantidade": 2000,
-        "valor": 35
-    },
-    {
-        "codigo": "001",
-        "nome": "Mouse",
-        "quantidade": 2000,
-        "valor": 35
-    },
-    {
-        "codigo": "021",
-        "nome": "teclado",
-        "quantidade": 200,
-        "valor": 80
-    },
-    {
-        "codigo": "123",
         "nome": "t\u00eanis",
-        "quantidade": 200,
-        "valor": 80
+        "quantidade": "100",
+        "valor": "80"
+    },
+    {
+        "codigo": "004",
+        "nome": "camiseta",
+        "quantidade": "250",
+        "valor": "75"
     }
 ]

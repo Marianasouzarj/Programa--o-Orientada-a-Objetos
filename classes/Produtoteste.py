@@ -11,6 +11,24 @@ class Produto(AbstractCrud):                    # **** herdo a classe /// passo 
         self.nome = nome
         self.quantidade = quantidade
         self.valor = valor
+                                            # não pode fazer no abstractCrud. é uma verificação especifica do produto
+                                            # Vamos utilizar o POLIMORFISMO
+                                     #  Sobre escrever o método inserir aplicando uma regra. Não chama o do pai. sempre do filho
+
+
+    def inserir(self):                 
+        lista = self.consultar()
+        produtoDuplicado = filter(lambda p: p['codigo'] == self.codigo, lista)
+
+        #print(list(produtoDuplicado))    ///// só para listar
+
+        if len(list(produtoDuplicado)):
+            print()
+            print('Já existe um produto com esse código')
+        else:
+            super().inserir()
+
+
 
 
    # *** TUDO ABAIXO FOI PARA O ARQUIVO INDEX.PY ***     
